@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'main7': "url('../src/assets/main7.jpg')"
+        'main7': "url('/main7.jpg')"
       },
       spacing: {
         '110': '28rem',

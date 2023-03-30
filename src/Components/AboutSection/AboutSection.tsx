@@ -14,7 +14,7 @@ const AboutSection = () => {
           ABOUT</h1>
         <br />
         <div className='flex flex-col items-center lg:items-start lg:flex-row lg:justify-center'>
-        <img className='lg:ml-12 lg:mr-4 mb-6 contrast-125 w-48 h-48 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-md border-2 border-stone-800 drop-shadow-2xl' src='./src/assets/BAK2.jpg' alt='Brett Head Shot Photo'/>
+        <img className='lg:ml-12 lg:mr-4 mb-6 contrast-125 w-48 h-48 lg:w-96 lg:h-96 md:w-72 md:h-72 rounded-md border-2 border-stone-800 drop-shadow-2xl' src='/BAK2.jpg' alt='Brett Head Shot Photo'/>
         <section 
           id='aboutTextSection' 
           className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left mb-14'>

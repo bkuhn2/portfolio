@@ -22,11 +22,11 @@ const ContactSection = () => {
           <div id='socialsContainer' className='flex flex-row justify-center content-evenly'>
             <div className=' font-font5 decoration-2 mb-5 text-lg md:text-3xl underline-offset-4 decoration-teal-500 text-stone-800 font-bold text-center rounded-lg w-min flex border-2 border-stone-300 bg-stone-50 bg-opacity-70 backdrop-brightness-105 backdrop-blur-sm px-10 py-6'>
               <Link target="_blank" className='mx-4 w-24 md:w-48 flex flex-col hover:underline' to='https://www.linkedin.com/in/brett-kuhn/'>
-                <img className='hover:scale-105 mb-4' src='./src/assets/In-Blue-72@2x.png'/>
+                <img className='hover:scale-105 mb-4' src='/In-Blue-72@2x.png'/>
                 <p>LinkedIn</p>
               </Link>
               <Link target="_blank" className='mx-4 w-24 md:w-48 flex flex-col hover:underline' to='https://github.com/bkuhn2'>
-                <img className='hover:scale-105 mb-4' src='./src/assets/github-mark.png'/>
+                <img className='hover:scale-105 mb-4' src='/github-mark.png'/>
                 <p>GitHub</p>
               </Link>
             </div>
