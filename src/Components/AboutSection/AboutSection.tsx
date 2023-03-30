@@ -20,14 +20,17 @@ const AboutSection = () => {
           className='w-5/6 lg:w-1/2 lg:mr-16 lg:ml-4 flex flex-col items-left mb-14'>
           <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             Who I Am ...</h2>
-          <p className='font-font5 indent-8 rounded-md border-2 border-stone-500 drop-shadow-2xl text-justify w-full bg-stone-50 bg-opacity-60 backdrop-blur-sm p-7 text-sm md:text-xl text-stone-700 backdrop-brightness-125'>
-            Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
-            Turing School of Software and Design. <br/><br/> <p>I'm passionate about building applications and solving complex 
-            problems, and I love new experiences and learning new things both inside and outside of the 
-            tech industry. Working as a part of a team is important to me, and I take pride in building a strong
-            culture. When I'm not coding, you can find me traveling, rock climbing, playing
-            music or building guitars.</p>
-          </p>
+            <div className='flex flex-col rounded-md border-2 border-stone-500 drop-shadow-2xl bg-stone-50 bg-opacity-60 backdrop-blur-sm backdrop-brightness-125'>
+              <p className='font-font5 indent-8 text-justify w-full p-7 pb-1 text-sm md:text-xl text-stone-700 '>
+                Hello! I'm Brett Kuhn, a software engineer who specializes in front end development and a recent graduate of 
+                Turing School of Software and Design. 
+              </p>
+              <p className='font-font5 indent-8 text-justify w-full p-7 pt-3 text-sm md:text-xl text-stone-700 '>I'm passionate about building applications and solving complex 
+                problems, and I love new experiences and learning new things both inside and outside of the 
+                tech industry. Working as a part of a team is important to me, and I take pride in building a strong
+                culture. When I'm not coding, you can find me traveling, rock climbing, playing
+                music or building guitars.</p>
+            </div>
           <br />
           <h2 className='font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl  bg-stone-800 bg-opacity-90 backdrop-blur-sm p-3 pt-4 mb-2 text-xl md:text-4xl text-amber-500 bg-gradient-to-r from-neutral-800 to-stone-700'>
             What I'm Working On ...</h2>
