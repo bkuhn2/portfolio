@@ -21,13 +21,16 @@ Also, this app was initialized in [another repo](https://github.com/bkuhn2/BAK-P
 </p>
 
 ## Contributor[s]
-Solo project - [Brett Kuhn](https://github.com/bkuhn2/)
+[Brett Kuhn](https://github.com/bkuhn2/) - built as a solo project
 ## Preview
+![Portfolio gif 2](https://user-images.githubusercontent.com/110054994/229945647-d760c7dc-9422-4390-8e74-5ec10800c82e.gif)
 ## Wins/Challenges
 - Gained additional TypeScript experience
 - Incorporated Tailwind CSS library, learned for this project
 - Built app with Vite, learned for this project
-## Extensions
+## Future Extensions
 - Form to contact me directly via email on the Contact page
 - Ability to filter/search projects by technology type (i.e., filtering all projects that use TypeScript)
 - Blog
+## Project Install
+1. Clone down this repo by clicking the 'code' button in the top right of this GitHub page and copying the SSH address. Then in your terminal, having setup git, run `git clone [address copied from github here]` and cd into the directory. Run `npm install`, then, `npm run dev` and open the url display in the command line to view it in your browser.
