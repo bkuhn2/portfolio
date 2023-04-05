@@ -28,7 +28,7 @@ export const brettProjects = [
     githubURL: 'https://github.com/board-together',
     deployedURL: 'https://board-together.surge.sh/',
     img: 'https://i.imgur.com/ovXqlCj.jpg',
-    notes: 'Currently undergoing maintenance.',
+    notes: '',
     id: 2
   },
   {
