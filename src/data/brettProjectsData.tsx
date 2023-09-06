@@ -3,7 +3,7 @@
 export const brettProjects = [
   {
     name: 'DuxTube',
-    abstract: `DuxTube is a basic React app that collects and displays popular videos from the Pexels site and allows user to watch them and save their own collection. It utilizes Redux state management, React Player to play and display embedded video, and Tailwind CSS for styling. Solo project.`,
+    abstract: `DuxTube is a React app that collects and displays popular videos from the Pexels site and allows user to watch them and save their own collection. It utilizes Redux state management, React Player to play and display embedded video, and Tailwind CSS for styling. Solo project.`,
     tech: ['redux', 'react', 'tailwind', 'html', 'github', 'javascript'],
     githubURL: 'https://github.com/bkuhn2/DuxTube',
     deployedURL: 'https://duxtube.vercel.app/',
