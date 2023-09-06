@@ -2,6 +2,26 @@
 
 export const brettProjects = [
   {
+    name: 'DuxTube',
+    abstract: `DuxTube is a React app that collects and displays popular videos from the Pexels site and allows user to watch them and save their own collection. It utilizes Redux state management, React Player to play and display embedded video, and Tailwind CSS for styling. Solo project.`,
+    tech: ['redux', 'react', 'tailwind', 'html', 'github', 'javascript'],
+    githubURL: 'https://github.com/bkuhn2/DuxTube',
+    deployedURL: 'https://duxtube.vercel.app/',
+    img: 'https://i.imgur.com/vVB5haG.png',
+    notes: '',
+    id: 8
+  },
+  {
+    name: 'Cami Hatch Physical Therapy',
+    abstract: `This site was a freelance React project created for a Denver area physical therapist. Met with the client frequently discuss site features, aesthetics and to tailor to her specifications. Allows potential patients to learn about her, what services she offers, FAQs, and contact her directly, among other things.`,
+    tech: ['javascript', 'react', 'email.js', 'react router', 'html'],
+    githubURL: '',
+    deployedURL: 'https://www.chatchpt.com/',
+    img: 'https://i.imgur.com/1DgIm3q.png',
+    notes: '',
+    id: 9
+  },
+  {
     name: 'Vinyl Viewer',
     abstract: `Vinyl Viewer is a TypeScript/React application designed to emulate the record-collecting experience. A user can search for an artist, browse an artist's albums, and view information on each album. Users can then select an album to see more details and choose to save it to their virtual "collection," and can be viewed, filtered, or removed from the collection. The project also includes a Cypress acceptance test suite. Group project.`,
     tech: ['typescript', 'react', 'sass', 'react router', 'cypress', 'html', 'postman', 'github project board'],

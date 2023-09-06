@@ -34,7 +34,7 @@ const ProjectModal = ({ id, allProjects}: Prop) => {
           <img className='rounded-xl border-2 border-stone-800 w-11/12 md:w-4/5' src={selectedProject.img} alt='project picture'/>
           <p className='font-font5 indent-8 rounded-xl border-2 border-stone-800 drop-shadow-2xl text-justify w-full bg-stone-400 bg-opacity-10 backdrop-blur-sm p-7 text-xs md:text-lg text-stone-700 my-8'>{selectedProject.abstract}</p>
           {selectedProject.notes && <p className='text md:text-xl font-font4 text-center font-bold mb-7'>Note: {selectedProject.notes}</p>}
-          <Link target="_blank" className='font-font2 text-xl sm:text-3xl md:text-4xl py-2 pt-2 text-pink-700 hover:underline font-bold text-center mb-1 ' to={selectedProject.githubURL}>→Project on GitHub</Link>
+          {selectedProject.githubURL && <Link target="_blank" className='font-font2 text-xl sm:text-3xl md:text-4xl py-2 pt-2 text-pink-700 hover:underline font-bold text-center mb-1 ' to={selectedProject.githubURL}>→Project on GitHub</Link>}
           {selectedProject.deployedURL && <Link target="_blank" className='font-font2 text-xl sm:text-3xl md:text-4xl py-2 pt-2 text-pink-700 hover:underline font-bold text-center mb-1 ' to={selectedProject.deployedURL}>→Deployed Project Site</Link>}
           {!selectedProject.deployedURL &&  <p className='text-sm md:text-lg font-font5 text-center italic'>Working to get this and remaining student projects deployed...</p>}
           <p id='backButton' className='hover:scale-105 hover:cursor-pointer font-font7 text-center rounded-lg border-2 border-stone-800 drop-shadow-2xl p-2 px-4 pt-3 mt-6 mb-2 text-lg md:text-2xl text-teal-400 bg-gradient-to-r from-neutral-800 to-stone-700'>← back</p>
